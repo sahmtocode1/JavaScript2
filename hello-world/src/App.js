@@ -3,6 +3,7 @@ import './App.css';
 import { Greet, Greet2, Greet3 } from './components/Greet';
 import { Welcome, Welcome2 } from './components/welcome';
 import Message from './components/message';
+import Counter from './components/counter'
 
 function App () {
   return (
@@ -18,6 +19,7 @@ function App () {
       //<Welcome2 name="Rebel" nickname="Bell"/> 
 }
       <Message />
+      <Counter />
     </div>
   );
 }
