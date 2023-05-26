@@ -10,6 +10,7 @@ import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent';
 import NameList from './components/NameList';
 import PersonList from './components/PersonList';
+import FragmentDemo from './components/FragmentDemo';
 
 function App () {
   return (
@@ -33,6 +34,7 @@ function App () {
     <ParentComponent />
     <NameList />
     <PersonList />
+    <FragmentDemo />
     </div>
   );
 }
